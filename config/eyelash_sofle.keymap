@@ -34,6 +34,13 @@
         tap-ms = <100>;
     };
 
+    tdLeft: tdLeft {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TDLEFT";
+        #binding-cells = <0>;
+        bindings = <&kp LEFT>, <&kp HOME>;
+    };
+
     behaviors {
     };
 
@@ -117,11 +124,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans         &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans         &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans         &trans        &trans
             >;
 
             display-name = "layer4";
