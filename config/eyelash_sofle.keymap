@@ -65,6 +65,7 @@
                 <&tog 1>,
                 <&macro_press>,
                 <&kp LCTRL>,
+                <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LCTRL>,
                 <&macro_tap>,
