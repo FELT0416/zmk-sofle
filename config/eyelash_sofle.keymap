@@ -52,7 +52,7 @@
         TGwithRAlt: SHIFT_MCLK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&tog 1 &kp RIGHT_ALT>;
+            bindings = <&macro_tap>, <&tog 1>, <&macro_tap>, <&kp RIGHT_ALT>;
 
             label = "SHIFT_MCLK";
         };
