@@ -51,6 +51,12 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <34 35>;
+            layers = <0 1>;
+        };
     };
 
     macros {
