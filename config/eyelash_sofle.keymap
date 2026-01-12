@@ -50,6 +50,13 @@
         quick-release;
     };
 
+    numpadTD: numpadTD {
+        compatible = "zmk,behavior-tap-dance";
+        label = "NUMPADTD";
+        #binding-cells = <0>;
+        bindings = <&mo 2>, <&mo 4>;
+    };
+
     behaviors {
     };
 
