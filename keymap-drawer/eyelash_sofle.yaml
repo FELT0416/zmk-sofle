@@ -331,3 +331,5 @@ combos:
 - p: [34, 35]
   k: $$mdi:apple-keyboard-caps$$
   l: [LAYER0, layer1]
+- p: [47, 48]
+  k: $$mdi:apple-keyboard-control$$
