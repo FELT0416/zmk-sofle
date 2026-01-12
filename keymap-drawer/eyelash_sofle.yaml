@@ -57,7 +57,7 @@ layers:
   - '&ctrltg'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - layer4
+  - '&numpadTD'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - $$mdi:keyboard-space$$
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
