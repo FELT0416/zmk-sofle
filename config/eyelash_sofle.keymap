@@ -54,7 +54,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "NUMPADTD";
         #binding-cells = <0>;
-        bindings = <&mo 2>, <&mo 4>;
+        bindings = <&mo 3>, <&mo 4>;
     };
 
     behaviors {
@@ -112,11 +112,11 @@
 
         layer0 {
             bindings = <
-&kp ESC        &kp N1   &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7                &kp N8     &kp N9       &kp N0             &kp BACKSPACE
-&kp TAB        &kp Q    &kp W         &kp F      &kp P   &kp B        &kp DOWN_ARROW   &kp J      &kp L                 &kp U      &kp Y        &kp SEMICOLON      &kp BSLH
-&kp BACKSPACE  &kp A    &kp R         &kp S      &kp T   &kp G        &kp LEFT_ARROW   &kp M      &kp N                 &kp E      &kp I        &kp O              &kp ENTER
-&kp LSHFT      &kp X    &kp C         &kp D      &kp V   &kp Z        &kp RIGHT_ARROW  &kp K      &kp H                 &kp COMMA  &kp PERIOD   &kp SLASH          &kp RIGHT_SHIFT
-&tog 1         &ctrltg  &kp LEFT_ALT  &kp SPACE  &mo 3   &kp ENTER    &kp B            &kp SPACE  &sk_long RIGHT_SHIFT  &mo 2      &TGwithRAlt  &kp RIGHT_CONTROL
+&kp ESC        &kp N1   &kp N2        &kp N3     &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7                &kp N8     &kp N9       &kp N0             &kp BACKSPACE
+&kp TAB        &kp Q    &kp W         &kp F      &kp P      &kp B        &kp DOWN_ARROW   &kp J      &kp L                 &kp U      &kp Y        &kp SEMICOLON      &kp BSLH
+&kp BACKSPACE  &kp A    &kp R         &kp S      &kp T      &kp G        &kp LEFT_ARROW   &kp M      &kp N                 &kp E      &kp I        &kp O              &kp ENTER
+&kp LSHFT      &kp X    &kp C         &kp D      &kp V      &kp Z        &kp RIGHT_ARROW  &kp K      &kp H                 &kp COMMA  &kp PERIOD   &kp SLASH          &kp RIGHT_SHIFT
+&tog 1         &ctrltg  &kp LEFT_ALT  &kp SPACE  &numpadTD  &kp ENTER    &kp B            &kp SPACE  &sk_long RIGHT_SHIFT  &mo 2      &TGwithRAlt  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&scroll_encoder>;
