@@ -66,6 +66,11 @@
             key-positions = <34 35>;
             layers = <0 1>;
         };
+
+        CTRL_combo {
+            bindings = <&kp RCTRL>;
+            key-positions = <47 48>;
+        };
     };
 
     macros {
