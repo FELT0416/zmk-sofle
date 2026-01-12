@@ -75,7 +75,7 @@
         };
 
         CTRL_combo {
-            bindings = <&kp RCTRL>;
+            bindings = <&kp LEFT_CONTROL>;
             key-positions = <47 48>;
         };
     };
