@@ -78,6 +78,11 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <47 48>;
         };
+
+        tog1 {
+            bindings = <&tog 1>;
+            key-positions = <29 30 55>;
+        };
     };
 
     macros {
