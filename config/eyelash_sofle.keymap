@@ -151,11 +151,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans         &trans        &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans        &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans         &trans        &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans         &trans        &trans
+&trans  &trans  &trans     &trans     &trans     &kp PRINTSCREEN    &trans  &trans  &trans        &trans         &trans        &trans     &trans
+&trans  &trans  &trans     &trans     &trans     &trans             &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans        &trans     &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans             &trans  &trans  &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans     &trans     &trans     &trans             &trans  &trans  &trans        &trans         &trans        &trans     &trans
+&trans  &trans  &trans     &trans     &trans     &trans             &trans  &trans  &trans        &trans         &trans        &trans
             >;
 
             display-name = "layer4";
