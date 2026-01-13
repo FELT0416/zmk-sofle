@@ -333,3 +333,5 @@ combos:
   l: [LAYER0, layer1]
 - p: [47, 48]
   k: $$mdi:apple-keyboard-control$$
+- p: [29, 30, 55]
+  k: {t: layer1, h: toggle}
