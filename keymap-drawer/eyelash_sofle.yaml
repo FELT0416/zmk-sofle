@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: layer1, h: toggle}
   - '&ctrltg'
-  - $$mdi:apple-keyboard-option$$
+  - '&Alt_Win'
   - $$mdi:keyboard-space$$
   - '&numpadTD'
   - {t: '$$mdi:keyboard-return$$', type: enter}
