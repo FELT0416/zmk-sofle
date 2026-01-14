@@ -90,6 +90,11 @@
             bindings = <&tog 1>;
             key-positions = <29 30 55>;
         };
+
+        DelCombo {
+            bindings = <&kp DELETE>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
