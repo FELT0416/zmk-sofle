@@ -131,7 +131,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&tog 1 &rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(120,0,100)>;
+                <&tog 1 &rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(120,0,38)>;
 
             // Sets a Green color (120) when Layer 1 is turned on
         };
