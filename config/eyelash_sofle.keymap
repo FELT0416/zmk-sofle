@@ -124,7 +124,7 @@
             label = "CTRLTG";
         };
 
-    // New macro to enter Layer 1 with LED indicator
+        // New macro to enter Layer 1 with LED indicator
         layer1_on: layer1_on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -138,6 +138,13 @@
             #binding-cells = <0>;
             bindings = <&macro_tap &tog 1 &rgb_ug RGB_OFF>;
         };
+
+        tog_layer1_rgb: tog_layer1_rgb {
+                    compatible = "zmk,behavior-macro";
+                    #binding-cells = <0>;
+                    // This macro toggles layer 1 AND toggles the RGB underglow
+                    bindings = <&macro_tap &tog 1 &rgb_ug RGB_TOG>;
+                };
     };
 
     keymap {
