@@ -102,7 +102,9 @@
         TGwithRAlt: SHIFT_MCLK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&tog 1>, <&macro_tap>, <&kp RIGHT_ALT>;
+            bindings =
+                <&macro_tap>,
+                <&tog 1 &kp RIGHT_ALT &rgb_ug RGB_COLOR_HSB(0,0,15) &rgb_ug RGB_TOG>;
 
             label = "SHIFT_MCLK";
         };
@@ -152,7 +154,7 @@
 
             bindings =
                 <&macro_tap>,
-                <&tog 1 &rgb_ug RGB_COLOR_HSB(0,0,36) &rgb_ug RGB_TOG>;
+                <&tog 1 &rgb_ug RGB_COLOR_HSB(0,0,14) &rgb_ug RGB_TOG>;
         };
     };
 
