@@ -150,7 +150,9 @@
 
             // This macro toggles layer 1 AND toggles the RGB underglow
 
-            bindings = <&macro_tap>, <&tog 1 &rgb_ug RGB_TOG>;
+            bindings =
+                <&macro_tap>,
+                <&tog 1 &rgb_ug RGB_COLOR_HSB(0,0,100) &rgb_ug RGB_TOG>;
         };
     };
 
