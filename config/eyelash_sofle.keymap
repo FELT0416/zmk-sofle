@@ -152,7 +152,7 @@
 
             bindings =
                 <&macro_tap>,
-                <&tog 1 &rgb_ug RGB_COLOR_HSB(0,0,100) &rgb_ug RGB_TOG>;
+                <&tog 1 &rgb_ug RGB_COLOR_HSB(0,0,36) &rgb_ug RGB_TOG>;
         };
     };
 
