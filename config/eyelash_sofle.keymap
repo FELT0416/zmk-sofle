@@ -88,7 +88,7 @@
         };
 
         tog1 {
-            bindings = <&tog 1>;
+            bindings = <&tog_layer1_rgb>;
             key-positions = <29 30 55>;
         };
 
@@ -125,26 +125,33 @@
         };
 
         // New macro to enter Layer 1 with LED indicator
+
         layer1_on: layer1_on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &tog 1 &rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(120,100,50)>; 
+            bindings =
+                <&macro_tap>,
+                <&tog 1 &rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(120,0,100)>;
+
             // Sets a Green color (120) when Layer 1 is turned on
         };
-    
+
         // New macro to exit Layer 1 and turn LED off
+
         layer1_off: layer1_off {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &tog 1 &rgb_ug RGB_OFF>;
+            bindings = <&macro_tap>, <&tog 1 &rgb_ug RGB_OFF>;
         };
 
         tog_layer1_rgb: tog_layer1_rgb {
-                    compatible = "zmk,behavior-macro";
-                    #binding-cells = <0>;
-                    // This macro toggles layer 1 AND toggles the RGB underglow
-                    bindings = <&macro_tap &tog 1 &rgb_ug RGB_TOG>;
-                };
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+
+            // This macro toggles layer 1 AND toggles the RGB underglow
+
+            bindings = <&macro_tap>, <&tog 1 &rgb_ug RGB_TOG>;
+        };
     };
 
     keymap {
