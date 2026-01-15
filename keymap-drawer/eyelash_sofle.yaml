@@ -334,6 +334,6 @@ combos:
 - p: [47, 48]
   k: $$mdi:apple-keyboard-control$$
 - p: [29, 30, 55]
-  k: {t: layer1, h: toggle}
+  k: '&tog_layer1_rgb'
 - p: [27, 26]
   k: $$mdi:backspace-reverse-outline$$
