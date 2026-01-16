@@ -53,7 +53,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: layer1, h: toggle}
+  - '&layer1_on'
   - '&ctrltg'
   - '&Alt_Win'
   - $$mdi:keyboard-space$$
@@ -118,7 +118,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: layer1, h: toggle}
+  - '&layer1_off'
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
