@@ -203,7 +203,7 @@
         layer_4 {
             bindings = <
 &kp LC(F12)  &trans     &trans     &trans     &trans     &kp PRINTSCREEN    &trans  &trans  &trans        &trans         &trans        &trans     &trans
-&trans       &trans     &trans     &trans     &trans     &trans             &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans        &trans     &trans
+&trans       &kp F16    &kp F13    &kp F14    &kp F15    &trans             &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans        &trans     &trans
 &trans       &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans             &trans  &trans  &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &trans
 &trans       &trans     &trans     &trans     &trans     &trans             &trans  &trans  &trans        &trans         &trans        &trans     &trans
 &trans       &trans     &trans     &trans     &trans     &trans             &trans  &trans  &trans        &trans         &trans        &trans
