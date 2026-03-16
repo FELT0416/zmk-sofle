@@ -227,7 +227,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+F18
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
