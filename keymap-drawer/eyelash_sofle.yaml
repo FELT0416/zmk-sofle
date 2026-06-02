@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - F16
   - F13
   - F14
@@ -235,7 +235,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:apple-keyboard-shift$$
   - Ctl+Z
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+F
